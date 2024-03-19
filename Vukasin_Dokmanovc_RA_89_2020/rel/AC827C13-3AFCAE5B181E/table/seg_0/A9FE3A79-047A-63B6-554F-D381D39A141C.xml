@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9FE3A79-047A-63B6-554F-D381D39A141C" name="Pik">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>6C077411-8CAC-719F-8FEE-47449CDCC0A1</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPik" id="28A92F87-2637-A838-1373-4A4F7C4FFAC2">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>E36D13B1-73A7-F83A-AA4B-ADE7DB340578</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RedBrPik" id="A0D8D4FE-ECBF-722D-AC86-06BB05FC5D36">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>A4C0C15C-BE12-9D08-249D-05A7DB618B27</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BrRunPik" id="C25590B1-C12C-E14E-B781-6621FC9C6276">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>B2AC4D57-A8AC-2BF7-70E8-762870617A5E</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GodPik" id="5A76D790-33F3-8496-C8C8-C5886DE29F95">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>1B2445BD-C683-F48E-83BD-CA7F0B4032BB</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdTim" id="78AF6CEE-74BB-C13A-6234-B9954F73EDC7">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>EAE295F6-E9A5-D2F2-599C-19F9B2797D9E</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F694C438-C8CA-4687-7484-67D8058D1347" referredColumn="39BD3CCC-1DDE-D447-E7F1-63205DE9822E"/>
+</associations>
+</Column>
+<Column name="MatBrZap" id="99323358-222D-ACF6-70D1-A93945365888">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>4020F815-C58D-7B2D-2070-014D0B0D5C43</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6DA3BD2-5AEB-B32A-FD9B-E20E03FED955" referredColumn="394DE208-9F21-A436-F2E4-9A72CD32405A"/>
+</associations>
+</Column>
+<Column name="IdNov" id="82C96596-C949-3EA2-78E9-1630BB421614">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>DB665337-33F9-7FC4-10B2-D690AA3D54E0</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5720BF3-BAE6-F373-7D53-B425A231315B" referredColumn="D0B4713E-77EC-27C1-81E6-10F3A6D109F8"/>
+</associations>
+</Column>
+<Column name="IdDraft" id="BDBDDCE1-78A2-17EA-57FA-233E67ACD5C7">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>5349566B-0C86-5C1B-FE21-490790011A40</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5720BF3-BAE6-F373-7D53-B425A231315B" referredColumn="E61CA401-AF38-4A3F-99DA-D9A95C286894"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD427F23-6479-CC5D-3CFB-40F543ACD349" name="Pik_PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>FB84655D-BB5F-76DE-B987-578EEC967136</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28A92F87-2637-A838-1373-4A4F7C4FFAC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40E23D2B-3602-C5BB-D92D-0329A4E98C86" name="Pik__IDX">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>556497FE-6D22-F6BA-7EDB-7795C2BD7FEF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="82C96596-C949-3EA2-78E9-1630BB421614"/>
+<colUsage columnID="BDBDDCE1-78A2-17EA-57FA-233E67ACD5C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FF0B4A2-DEAE-6365-5F03-F8BB3490F5AC" name="Pik_Novajlija_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>556497FE-6D22-F6BA-7EDB-7795C2BD7FEF</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82C96596-C949-3EA2-78E9-1630BB421614"/>
+<colUsage columnID="BDBDDCE1-78A2-17EA-57FA-233E67ACD5C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F06E6721-1138-8D3F-6B8E-804255C77EC1" name="Pik_Tim_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>3B7C0532-C28D-6B50-5A7C-B6E1BD2A01F8</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78AF6CEE-74BB-C13A-6234-B9954F73EDC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E883065-7499-FEDB-E2D7-92BED1AE26B0" name="Pik_Menadzer_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 18:26:02 UTC</createdTime>
+<generatorID>D3E166D6-4749-5CD7-F6E3-C985B16E1D38</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99323358-222D-ACF6-70D1-A93945365888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

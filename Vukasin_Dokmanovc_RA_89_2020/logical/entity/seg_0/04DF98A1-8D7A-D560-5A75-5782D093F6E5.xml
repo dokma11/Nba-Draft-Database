@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04DF98A1-8D7A-D560-5A75-5782D093F6E5" name="Trejd">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:34:14 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTrejd" id="9E9B4F80-989E-D53D-366E-207939B92086">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:34:19 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatTrejd" id="73918DB8-B25A-A978-23F4-A7B1A494CC52">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:34:29 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipTrejd" id="05DFFD34-5C6A-A8EE-9694-3744A410C46E">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:34:39 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>14CE9726-A656-77F6-193F-38C92ED29362</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OdobTrejd" id="A0541FD2-5A83-9299-3932-DEFAB1AE6976">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:34:47 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<domain>3323CE71-6709-893B-02DD-6CDDBE8344B8</domain>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47577E4C-CE42-060D-4B5E-92367A21160C" name="Trejd PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:34:27 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E9B4F80-989E-D53D-366E-207939B92086</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

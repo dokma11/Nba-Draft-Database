@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="653D7935-BB34-1C65-7393-39E8AF750A17" name="FKArc_1">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<ownerDesignName>modeler1</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>06990CF0-21E2-FB21-2393-61CAD8D1EE5A</table>
+<fkeys>
+<fkeyID>805DF97E-5729-8631-D29F-59255081AA7B</fkeyID>
+<fkeyID>18E2A95A-0DD8-A451-507E-BB7642F1B916</fkeyID>
+<fkeyID>1E5ADB96-40E7-20C7-536D-431567CF6779</fkeyID>
+<fkeyID>10902D35-044B-E4A6-FB5A-A310ACCE1EDB</fkeyID>
+</fkeys>
+</FKArc>

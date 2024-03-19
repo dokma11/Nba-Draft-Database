@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6DA3BD2-5AEB-B32A-FD9B-E20E03FED955" containerWithKeyObject="A9FE3A79-047A-63B6-554F-D381D39A141C" localFKIndex="4E883065-7499-FEDB-E2D7-92BED1AE26B0" name="Pik_Menadzer_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 18:26:02 UTC</createdTime>
+<generatorID>D3E166D6-4749-5CD7-F6E3-C985B16E1D38</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<referredTableLongName>Menadzer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B55710A5-B376-2129-FA0F-D53BA0353736</referredTableID>
+<keyObject>45613497-793C-6498-3552-7C7BF9B08AA0</keyObject>
+<referredKeyID>45613497-793C-6498-3552-7C7BF9B08AA0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MatBrZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

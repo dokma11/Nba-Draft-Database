@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF435879-0514-3541-4D6F-8F61DC52321B" name="Ucestvuje">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:49:52 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTrng" id="C60357CC-4FE7-30B4-9B5E-E689E920D395">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:50:56 UTC</createdTime>
+<generatorID>EAC1D22F-A169-5D54-247D-FAA6B89D6117</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>03398490-CDA8-C98D-4FD1-DE1FD58430DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdNov" id="AE43FFF5-E382-F2F4-209D-05BE521454D8">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:51:42 UTC</createdTime>
+<generatorID>15D80714-33FD-20BC-2CEC-0C6DC8515EAD</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>579673EA-86B4-90E5-874F-F377D94E72B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDraft" id="9D5D8EA7-9D13-01CC-9751-C3B66CB0C189">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:51:42 UTC</createdTime>
+<generatorID>15D80714-33FD-20BC-2CEC-0C6DC8515EAD</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>185D126E-B8E5-2389-1D5E-21F2E41211AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DC6E63B-36C3-7898-5017-2D4CE551F510" name="Ucestvuje PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 22:23:01 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C60357CC-4FE7-30B4-9B5E-E689E920D395</attributeRef>
+<attributeRef>AE43FFF5-E382-F2F4-209D-05BE521454D8</attributeRef>
+<attributeRef>9D5D8EA7-9D13-01CC-9751-C3B66CB0C189</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B55710A5-B376-2129-FA0F-D53BA0353736" name="Menadzer">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>70DCE4FE-226F-1A42-4FB7-EAA2196FCAFE</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MatBrZap" id="394DE208-9F21-A436-F2E4-9A72CD32405A">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>4289A44F-ACE3-BA36-DC22-65078B0BDF55</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10902D35-044B-E4A6-FB5A-A310ACCE1EDB" referredColumn="C83EAF8F-CF41-91A2-8A36-B72D6F50E113"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45613497-793C-6498-3552-7C7BF9B08AA0" name="Menadžer_PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>90674EA1-5C4F-9CB7-7503-F480E10C0CBA</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="394DE208-9F21-A436-F2E4-9A72CD32405A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="066CEC91-2171-AC12-D198-4918630FE1FE" name="Menadžer_Zaposleni_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>D6491BAD-EAF7-67CB-73DB-B0CB4C12879B</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="394DE208-9F21-A436-F2E4-9A72CD32405A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

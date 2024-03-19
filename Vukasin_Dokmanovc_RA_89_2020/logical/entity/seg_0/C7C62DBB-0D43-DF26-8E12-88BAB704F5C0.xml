@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7C62DBB-0D43-DF26-8E12-88BAB704F5C0" name="Teren">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:38:24 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTeren" id="3F1AA79F-EA2A-0F5E-E94D-B5080E3C5F15">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:38:28 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GradTeren" id="E17CFD35-90AE-5F6E-C307-3B665D33C63C">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:38:39 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PodTeren" id="8CF3E97C-6E94-9E28-EDD1-01A84DCDC6FD">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:38:55 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UlicaTeren" id="FC2E76ED-78AD-B1F2-1012-103E618BFE14">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 16:59:21 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BrAdrTeren" id="74D549CF-E7F1-D307-B367-4764136600C2">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 16:59:50 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DrzavaTeren" id="0FD6175B-D5E2-2CFC-C15F-FB8B13ADDF4E">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 17:00:35 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B4BEC04-D554-BFE7-7A3D-10F0F9816AD3" name="Teren PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:38:36 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F1AA79F-EA2A-0F5E-E94D-B5080E3C5F15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

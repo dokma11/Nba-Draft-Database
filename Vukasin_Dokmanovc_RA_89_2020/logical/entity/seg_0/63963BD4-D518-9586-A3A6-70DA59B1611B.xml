@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63963BD4-D518-9586-A3A6-70DA59B1611B" name="Trening">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:36:17 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTrng" id="03398490-CDA8-C98D-4FD1-DE1FD58430DA">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:36:23 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TrajTrng" id="DB25D729-6467-F1DF-ADCD-2149B2AE9F9C">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:36:35 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatTrng" id="7ACEDF3A-AE6D-0362-641F-0B431F0393D5">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:36:46 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTipTrng" id="F5999CFF-952F-8C43-A132-74FCD666114B">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:41:05 UTC</createdTime>
+<generatorID>E5479E2A-29B3-95E5-1102-DB9C21AD9A7E</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>309AF488-E709-832B-3EC4-BE2D0AEB48C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2E8F4A4-B601-B4AC-D9B9-9A0456CC96E3" name="Trening PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:36:33 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03398490-CDA8-C98D-4FD1-DE1FD58430DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

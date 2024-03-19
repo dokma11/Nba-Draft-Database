@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ima nadredjenogv2" directorySegmentName="seg_0" id="804F07EE-9676-6A5E-16F0-4AD05AB29B05">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:57:41 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<targetPk>90674EA1-5C4F-9CB7-7503-F480E10C0CBA</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Nadredjeni</nameOnSource>
+<nameOnTarget>Podredjeni</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8775CD6-3A23-DEDB-D4E6-3515FE0704B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8775CD6-3A23-DEDB-D4E6-3515FE0704B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E98C7E0-634E-8DA8-7664-8DAB3EE8021D" containerWithKeyObject="51F2A996-D026-6EE8-8E08-AF539B0F137F" localFKIndex="2927A2B1-E555-6DC2-265D-5E73655F9F02" name="Organizuje_Trening_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>6908D8C6-0EBD-6CFC-3EB9-ECC7D9080983</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<referredTableLongName>Trening</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBFAAF43-5E5C-DFE3-36EE-3569A7896984</referredTableID>
+<keyObject>0EAA67AC-013C-B042-4D23-C797C2DBE775</keyObject>
+<referredKeyID>0EAA67AC-013C-B042-4D23-C797C2DBE775</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTrng</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

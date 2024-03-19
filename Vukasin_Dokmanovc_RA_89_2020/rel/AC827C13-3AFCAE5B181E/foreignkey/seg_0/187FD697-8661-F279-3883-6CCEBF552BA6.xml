@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="187FD697-8661-F279-3883-6CCEBF552BA6" containerWithKeyObject="F41A9D98-10CB-D516-2E04-C7418CCF92C1" localFKIndex="48CD8C21-A432-39D8-DB6D-FDBCCA131BCD" name="Skaut_Skaut_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>804F07EE-9676-6A5E-16F0-4AD05AB29B05</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<referredTableLongName>Skaut</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F41A9D98-10CB-D516-2E04-C7418CCF92C1</referredTableID>
+<keyObject>F5DF8975-177E-E84E-283B-82077742AA6F</keyObject>
+<referredKeyID>F5DF8975-177E-E84E-283B-82077742AA6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MatBrZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

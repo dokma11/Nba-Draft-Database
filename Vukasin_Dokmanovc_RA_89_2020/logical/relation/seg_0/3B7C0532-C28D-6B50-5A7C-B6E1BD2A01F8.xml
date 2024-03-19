@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Poseduje" directorySegmentName="seg_0" id="3B7C0532-C28D-6B50-5A7C-B6E1BD2A01F8">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:13:08 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<targetPk>DEB6AF58-5CE6-07C5-0DFC-6C00F5E0B052</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6C077411-8CAC-719F-8FEE-47449CDCC0A1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C7260312-0DE8-24C9-4953-7CD05068E578</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

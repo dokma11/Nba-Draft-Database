@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C077411-8CAC-719F-8FEE-47449CDCC0A1" name="Pik">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:28:27 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPik" id="E36D13B1-73A7-F83A-AA4B-ADE7DB340578">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:28:33 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RedBrPik" id="A4C0C15C-BE12-9D08-249D-05A7DB618B27">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:28:45 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BrRunPik" id="B2AC4D57-A8AC-2BF7-70E8-762870617A5E">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:28:58 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GodPik" id="1B2445BD-C683-F48E-83BD-CA7F0B4032BB">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:29:11 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTim" id="EAE295F6-E9A5-D2F2-599C-19F9B2797D9E">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:13:39 UTC</createdTime>
+<generatorID>3B7C0532-C28D-6B50-5A7C-B6E1BD2A01F8</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>F39CFA4E-299D-D9E5-8AA4-79E29D2FD7CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MatBrZap" id="4020F815-C58D-7B2D-2070-014D0B0D5C43">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:17:12 UTC</createdTime>
+<generatorID>D3E166D6-4749-5CD7-F6E3-C985B16E1D38</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>4289A44F-ACE3-BA36-DC22-65078B0BDF55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdNov" id="DB665337-33F9-7FC4-10B2-D690AA3D54E0">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:53:46 UTC</createdTime>
+<generatorID>556497FE-6D22-F6BA-7EDB-7795C2BD7FEF</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>579673EA-86B4-90E5-874F-F377D94E72B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDraft" id="5349566B-0C86-5C1B-FE21-490790011A40">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 22:53:46 UTC</createdTime>
+<generatorID>556497FE-6D22-F6BA-7EDB-7795C2BD7FEF</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="true"/>
+</engineerTo>
+<referedAttribute>185D126E-B8E5-2389-1D5E-21F2E41211AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB84655D-BB5F-76DE-B987-578EEC967136" name="Pik PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:28:37 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC827C13-1EF4-B440-E619-3AFCAE5B181E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E36D13B1-73A7-F83A-AA4B-ADE7DB340578</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

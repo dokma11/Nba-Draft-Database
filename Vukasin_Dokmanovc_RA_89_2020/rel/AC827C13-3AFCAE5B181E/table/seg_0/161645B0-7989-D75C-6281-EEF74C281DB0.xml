@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="161645B0-7989-D75C-6281-EEF74C281DB0" name="Ucestvuje">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>EF435879-0514-3541-4D6F-8F61DC52321B</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTrng" id="FF9C7507-34FB-3FE3-9E61-E45DF6E76B52">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>C60357CC-4FE7-30B4-9B5E-E689E920D395</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B791F976-135A-EEE8-F95A-CFED57ED8CC9" referredColumn="51F1EBE7-0B4A-842C-B6C9-E1DA6BF4B164"/>
+</associations>
+</Column>
+<Column name="IdNov" id="EF36D02C-064D-C5AA-68DA-9191F1B046EF">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>AE43FFF5-E382-F2F4-209D-05BE521454D8</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C98AA8E-EB58-05E9-5AFC-38F696538CB9" referredColumn="D0B4713E-77EC-27C1-81E6-10F3A6D109F8"/>
+</associations>
+</Column>
+<Column name="IdDraft" id="8DC3F7F6-A6EE-8CE5-E04C-FF785FC52472">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>9D5D8EA7-9D13-01CC-9751-C3B66CB0C189</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C98AA8E-EB58-05E9-5AFC-38F696538CB9" referredColumn="E61CA401-AF38-4A3F-99DA-D9A95C286894"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7DC0ACC-0CF5-B8A4-6076-FA5C5440E257" name="Ucestvuje_PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FF9C7507-34FB-3FE3-9E61-E45DF6E76B52"/>
+<colUsage columnID="EF36D02C-064D-C5AA-68DA-9191F1B046EF"/>
+<colUsage columnID="8DC3F7F6-A6EE-8CE5-E04C-FF785FC52472"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9410A8A-3F3F-B6DA-88E2-1DEEF1D3240F" name="Ucestvuje_Trening_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>EAC1D22F-A169-5D54-247D-FAA6B89D6117</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9C7507-34FB-3FE3-9E61-E45DF6E76B52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D570D9A5-AC34-E56F-2625-3FB912FAF90E" name="Ucestvuje_Novajlija_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>15D80714-33FD-20BC-2CEC-0C6DC8515EAD</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF36D02C-064D-C5AA-68DA-9191F1B046EF"/>
+<colUsage columnID="8DC3F7F6-A6EE-8CE5-E04C-FF785FC52472"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

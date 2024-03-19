@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F41A9D98-10CB-D516-2E04-C7418CCF92C1" name="Skaut">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>F8775CD6-3A23-DEDB-D4E6-3515FE0704B9</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MatBrZap" id="F54BA655-32C5-9F32-3F74-BC3C68EECAE9">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>4289A44F-ACE3-BA36-DC22-65078B0BDF55</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E2A95A-0DD8-A451-507E-BB7642F1B916" referredColumn="C83EAF8F-CF41-91A2-8A36-B72D6F50E113"/>
+</associations>
+</Column>
+<Column name="MatBrNadZap" id="ACEA545D-9955-F6AE-9CDD-254CB517069E">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>E2F37B1F-44E2-28A2-F401-6221C1BAA1C3</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="187FD697-8661-F279-3883-6CCEBF552BA6" referredColumn="F54BA655-32C5-9F32-3F74-BC3C68EECAE9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5DF8975-177E-E84E-283B-82077742AA6F" name="Skaut_PK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>90674EA1-5C4F-9CB7-7503-F480E10C0CBA</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F54BA655-32C5-9F32-3F74-BC3C68EECAE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="952E1ACF-1226-A0A2-751F-4EA57CAC6F4D" name="Skaut_Zaposleni_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>34E8664E-F4DB-2492-56DD-79034FEEF13C</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F54BA655-32C5-9F32-3F74-BC3C68EECAE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48CD8C21-A432-39D8-DB6D-FDBCCA131BCD" name="Skaut_Skaut_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 23:00:24 UTC</createdTime>
+<generatorID>804F07EE-9676-6A5E-16F0-4AD05AB29B05</generatorID>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACEA545D-9955-F6AE-9CDD-254CB517069E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

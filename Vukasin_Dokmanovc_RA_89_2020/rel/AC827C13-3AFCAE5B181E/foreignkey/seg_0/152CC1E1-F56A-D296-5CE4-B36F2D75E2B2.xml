@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="152CC1E1-F56A-D296-5CE4-B36F2D75E2B2" containerWithKeyObject="76FFE275-C39E-9DB5-E8D6-0273FBD65965" localFKIndex="C6327AA3-E0B9-B923-1577-EDF4EC35E4F6" name="Trener_Trener_FK">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-15 22:36:29 UTC</createdTime>
+<ownerDesignName>Vukašin_Dokmanovć_RA_89_2020</ownerDesignName>
+<referredTableLongName>Trener</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76FFE275-C39E-9DB5-E8D6-0273FBD65965</referredTableID>
+<keyObject>C162794B-8F32-07DF-02F1-479FB61B6F4D</keyObject>
+<referredKeyID>C162794B-8F32-07DF-02F1-479FB61B6F4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MatBrZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="AC827C13-1EF4-B440-E619-3AFCAE5B181E" mainViewID="12C895CF-8849-7232-362F-C5B1BED37F96">
+<createdBy>HP Pavilion</createdBy>
+<createdTime>2024-01-09 21:21:48 UTC</createdTime>
+<ownerDesignName>modeler1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
